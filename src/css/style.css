@@ -1,118 +1,56 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&family=Yuyu+Short&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Yuyu+Short&display=swap');*/
-/*Очень умный Google Fonts сам потом в импорт засовывает те шрифты которые я искал до этого*/
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&family=Smooch+Sans:wght@100..900&family=Yuyu+Short&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Smooch+Sans:wght@100..900&family=Yuyu+Short&display=swap');
 
 
 body {
     margin: 0;
     padding: 0;
-    background-image: url(https://img.magnific.com/free-photo/coffee-beans-dark-background-top-view-coffee-concept_1220-6299.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-color: whitesmoke;
 
 }
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+.search_machine {
+    margin: 0 auto;
     text-align: center;
+    justify-content: center;
 }
-
-header {
-    background-image: url(https://www.andbeyond.com/wp-content/uploads/sites/5/roasted-coffee-beens-queen-elizabeth-national-park.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 700px;
-    border: 5px solid #442D25;
-    border-radius: 10px;
-}
-
-header h1 {
-    padding: 15px 0 40px 0;
-    font-family: "Yuyu Short", sans-serif;
-    font-weight: 400;
-    font-size: 200px;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px  1px 0 white, 1px  1px 0 white;
-}
-
-header h1 ~ p {
-    color: black;
-    font-family: "Playwrite ID", cursive;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px  1px 0 white, 1px  1px 0 white;
-    font-size: 30px;
-}
-main {
-    position: relative;
-
-
-}
-
-main .sect{
-    position: absolute;
-    width: 49%;
-    margin: 20px 0 20px 0;
-    border: 5px solid #442D25;
-    border-radius: 10px;
-    height: 1300px;
-}
-
-main .sect.container1, main .sect.container2 {
-    left: 0;
-
-}
-
-main .sect.container3, main .sect.container4 {
-    right: 0;
-
-}
-
-main .container1, main .container3 {
-    top: 1400px;
-}
-
-.sect h2, p {
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px  1px 0 white, 1px  1px 0 white;
-    font-size: 30px;
-}
-
-main .sect h2 {
-    padding: 20px 0;
-    font-family: "Yuyu Short", sans-serif;
-    font-weight: 400;
-    font-size: 60px;
-    text-decoration: underline;
-
-}
-
-main .sect h2 ~ p {
-    font-family: "Playwrite ID", cursive;
-}
-
-/*main .sect img[alt] {*/
-/*    border: 5px solid #442D25;*/
-/*    padding: 100px;*/
-/*!*}*! Технического применения этому пока вижу но работает чисто для проверки*/
-main .sect .btn {
+.search_machine .logo {
     display: inline-block;
-    width: 49%;
-    height: 40px;
+    margin: 50px auto;
+    font-family:  "Press Start 2P", system-ui;
+    letter-spacing: 2px;
+    font-size: 50px;
+    -webkit-text-stroke: black 1.5px;
+
+
 }
-main .btn.buy, main .btn.more {
-    margin: -10px 0 20px 0;
+.search_machine .logo span:nth-child(1) {
+    color: cornflowerblue;
 }
-main .sect .btn {
-
-    border-radius: 25px;
-    background-color: #3a195e;
-    color: white;
-    font-family: "Playwrite ID", cursive;
+.search_machine .logo span:nth-child(2) {
+    color: darkorchid ;
 }
-
-
-
-
-
+.search_machine .logo span:nth-child(3) {
+    color: coral ;
+}
+.search_machine .logo span:nth-child(4) {
+    color: darkseagreen ;
+}
+.search_machine .logo span:nth-child(5) {
+    color: deeppink ;
+}
+.search_machine .logo span:nth-child(6) {
+    color: cyan ;
+}
+.search_machine .logo span:nth-child(7) {
+    color: greenyellow ;
+}
+.search_machine .logo span:nth-child(8) {
+    color: navy ;
+}
+.search_machine .logo span:nth-child(9) {
+    color: yellow ;
+}
+.search_machine .logo span:nth-child(10) {
+    color: red ;
+}
