@@ -20,9 +20,10 @@ body {
     font-family:  "Press Start 2P", system-ui;
     letter-spacing: 2px;
     font-size: 50px;
-    -webkit-text-stroke: black 1.5px;
+    -webkit-text-stroke: black 0.1rem;
 
-
+/*-webkit-text-stroke: black 1.5px дает в итоге ошибку но почему?В варианте с rem ничего подобного нет
+-webkit- нашел в интернете и как я понял это обращение к инструментам браузера и что мы просим сделать,правильно?;*/
 }
 .search_machine .logo span:nth-child(1) {
     color: cornflowerblue;
@@ -53,4 +54,9 @@ body {
 }
 .search_machine .logo span:nth-child(10) {
     color: red ;
+}
+
+.search_machine .search_win #search {
+    width: 40%;
+    height: 20px;
 }
