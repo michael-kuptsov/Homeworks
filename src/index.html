@@ -1,37 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/src/css/style.css">
-    <title>NеGoogle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Adaptive Layout</title>
 </head>
 <body>
-
-<form action="https://www.google.com/search" method="get">
-   <p class = "search_machine">
-       <label for="search" class="logo">
-           <span>"</span><span>N</span><span>е</span><span>"</span><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
-       </label>
-
-       <br>
-
-       <span class="search_win">
-           <input type="text" id="search" name="q" autofocus>
-       </span>
-<!--Взяло время но я понял что q дает запрос на поиск по итогу-->
-   </p>
-
-</form>
-
-<form action="https://www.google.com/search" method="get">
-
-</form>
-
-
-
+    
+    <div class="container">
+        <div class="row">
+            <div class="block first col-12 col-sm-6 col-md-4 col-xl">1</div>
+            <div class="block second col-12 col-sm-6 col-md-4 col-xl">2</div>
+            <div class="block third col-12 col-sm-6 col-md-4 col-xl">3</div>
+            <div class="block fourth col-12 col-sm-6 col-md-6 col-xl">4</div>
+            <div class="block fifth col-12 col-sm-12 col-md-6 col-xl">5</div>
+        </div>
+    </div>
 
 
 </body>

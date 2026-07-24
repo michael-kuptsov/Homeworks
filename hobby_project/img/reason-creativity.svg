@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="title">
+  <title id="title">Творчество</title>
+  <circle cx="40" cy="40" r="38" fill="#dce8ff"/>
+  <g fill="none" stroke="#3978f6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m25 54 3.2-12.5L49.7 20a5 5 0 0 1 7.1 0l3.2 3.2a5 5 0 0 1 0 7.1L38.5 51.8 25 54Z"/>
+    <path d="m45.5 24.2 10.3 10.3M28.2 41.5l10.3 10.3"/>
+  </g>
+</svg>

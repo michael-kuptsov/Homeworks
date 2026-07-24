@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-labelledby="title">
+  <title id="title">Постоянный рост</title>
+  <circle cx="40" cy="40" r="38" fill="#d5f5f2"/>
+  <path d="m19 53 15-15 10 9 18-22M48 25h14v14" fill="none" stroke="#16bdb7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #0d1531;;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.text-center {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    
+}
+.nav li, .nav a {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+ 
+}
+
+.nav a:hover {
+    color: skyblue;
+    transition: 0.3s;
+}
