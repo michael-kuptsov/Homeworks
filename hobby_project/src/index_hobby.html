@@ -7,15 +7,19 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="../css/style_hobby.css" />
     <link rel="shortcut icon" href="../img/favicon.svg" type="image/svg+xml" />
     <title>My Hobby Page</title>
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="container-fluid">
         <div class="header row align-items-center">
-          <h2 class="logo col-12 col-md-auto">MK.DEV</h2>
+          <h2 class="logo col-12 col-md-auto offset-md-1">MK.DEV</h2>
 
           <nav class="col-12 col-md-auto ms-md-auto">
             <ul class="nav justify-content-center justify-content-md-end gap-3">
@@ -31,19 +35,104 @@
     </header>
 
     <main>
-      <div class="container main_block">
+
+      <div class="container-fluid main_block">
         <div class="row">
-          <div class="col-12 col-md-6">
-            <h2 class="text-center hobby-title">Хобби которое вдохновляет</h2>
+          <div class="col-12 col-md-5 offset-md-1 d-flex flex-column flex-wrap">
+            <h5 class="hobby-title col-md-4">Хобби которое вдохновляет</h5>
             <h1>Программирование - мое хобби!</h1>
             <p>Я начинающий full-stack разработчик и я пишу код, потому что люблю создавать что-то новое и интересное.Я пишу код ради удовольствия,люблю решать задачи и создавать что-то новое.Считаю, что программирование - это не просто работа, а способ выражать свою креативность и всегда учиться чему то новому.</p>
-            <a href="#" class="btn btn-primary">Мои проекты</a>
-            <a href="#" class="btn btn-outline-primary">Обо мне</a>
+            <div class="d-flex justify-content-start flex-wrap align-items-center gap-3 ">
+              <a href="#" class="btn btn-primary col-md-4"><i class="bi bi-code-slash"></i> Смотреть проекты</a>
+              <a href="#" class="btn btn-outline-primary col-md-3"><i class="bi bi-person"></i> Обо мне</a>
+            </div>
           </div>
-          <div class="col-12 col-md-6">
-            <img src="../img/hero_image.svg" alt="Hero Image" />
+          <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mx-auto">
+            <img class="img_code" src="../img/hero-code-editor.png" alt="Code Editor" />
           </div>
+        </div>
       </div>
+
+      <div class="container-fluid why_programming">
+
+        <div class="row align-items-stretch justify-content-center gap-3">
+
+          <h2 class="descr d-flex justify-content-center align-items-center text-center mt-5">Почему я люблю программирование</h2>
+          <hr class="blue_line">
+
+          <div class="row d-flex justify-content-center align-items-stretch gap-3 mt-5">
+
+
+            <div class="feature-card col-12 col-md-3 d-flex flex-column justify-content-start align-items-center gap-3 text-center">
+
+              <i class="bi bi-brush icon brush"></i>
+
+              <h2 class="head_descr">Творчество</h2>
+              <p class="descr_bot">Код — это мой способ выражать идеи и создавать нечто новое.</p>
+            
+            </div>
+
+            <div class="feature-card col-12 col-md-3 d-flex flex-column justify-content-start align-items-center gap-3 text-center">
+
+              <i class="bi bi-lightbulb icon light"></i>
+              <h2 class="head_descr">Решение задач</h2>
+              <p class="descr_bot">Каждая задача - это вызов который прокачивает твое мышление.</p>
+
+            </div>
+
+
+            <div class="feature-card col-12 col-md-3 d-flex flex-column justify-content-start align-items-center gap-3 text-center">
+
+              <i class="bi bi-award icon award"></i> 
+              <h2 class="head_descr">Постоянный рост</h2>
+              <p class="descr_bot">Технологии постоянно развиваются, и это дает возможность всегда учиться чему-то новому и развиваться вместе с ними.</p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-fluid what_i_learn">
+
+        <div class="row align-items-stretch justify-content-center gap-1">
+
+          <h2 class="descr_3 d-flex justify-content-center align-items-center text-center mt-5">Что я изучаю</h2>
+          <hr class="blue_line">
+        </div>
+          <div class="row d-flex justify-content-evenly align-items-stretch gap-1 mt-5">
+
+            <div class="card_trip col-12 col-md-2 d-flex flex-column justify-content-start align-items-center gap-1 text-center">
+              <img src="../img/technology-html.svg" alt="HTML" />
+              <h2 class="head_descr">HTML</h2>
+              <p class="descr_bot">Создание структуры веб-страниц,семантика и доступность.</p>
+            </div>
+
+
+            <div class="card_trip col-12 col-md-2 d-flex flex-column justify-content-start align-items-center gap-1 text-center">
+              <img src="../img/technology-css.svg" alt="CSS" />
+              <h2 class="head_descr">CSS</h2>
+              <p class="descr_bot">Стилизация, макеты,Flexbox, Grid и адаптивный дизайн.</p>
+            </div>
+
+
+            <div class="card_trip col-12 col-md-2 d-flex flex-column justify-content-start align-items-center gap-1 text-center">
+              <img src="../img/technology-bootstrap.svg" alt="Bootstrap" />
+              <h2 class="head_descr">Bootstrap</h2>
+              <p class="descr_bot">Быстрая верстка с помощью компонентов и утилит Bootstrap 5.</p>
+            </div>
+
+              <div class="card_trip col-12 col-md-2 d-flex flex-column justify-content-start align-items-center gap-1 text-center">
+                <img src="../img/technology-javascript.svg" alt="JavaScript" />
+                <h2 class="head_descr">JavaScript</h2>
+                <p class="descr_bot">Интерактивность веб страниц и основы логики програмирования.</p>
+              </div>
+            </div>
+
+          </div>
+            
+      </div>
+
     </main>
 
     <footer></footer>

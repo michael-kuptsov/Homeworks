@@ -13,7 +13,6 @@ header {
     background-color: #0d1531;;
     color: #fff;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
 }
 
@@ -41,4 +40,101 @@ header {
 .nav a:hover {
     color: skyblue;
     transition: 0.3s;
+}
+
+.main_block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f6f7fb;
+}
+
+.hobby-title {
+    color: #4a6cff;
+    background-color: #dce1ff;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 2px solid #7995f9;
+    text-align: center;
+    border-radius: 9999px;
+    padding: 5px 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.img_code {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.why_programming .feature-card{
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.blue_line {
+    width: 400px;
+    height: 4px;
+    background-color: #000dfc;
+    margin: 20px auto;
+}
+
+.icon {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 5rem;
+
+
+}
+
+.brush {
+    color: rgb(62, 62, 239);
+    background-color: rgba(0, 0, 255, 0.445);
+}
+
+.light {
+    color: rgb(196, 60, 237);
+    text-shadow: 0px 0px 10px white;
+    background-color: rgba(221, 96, 247, 0.445);
+}
+
+.award {
+    color: goldenrod;
+    background-color: rgba(255, 255, 0, 0.445);
+}
+
+.head_descr {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.descr_bot {
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.what_i_learn .card_trip {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+
+    
+
 }
