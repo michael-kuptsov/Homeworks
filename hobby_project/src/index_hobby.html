@@ -72,6 +72,7 @@
 
       <div class="container-fluid why_programming">
         <div class="row align-items-stretch justify-content-center gap-3">
+<!--          gap расстояние блоков в флексе или гриде-->
           <h2
             class="descr d-flex justify-content-center align-items-center text-center mt-5"
           >
@@ -197,47 +198,73 @@
 
       </section>
 
-
-        <section class="my_way container-fluid">
-          <h2 class="descr d-flex justify-content-center align-items-center text-center mt-5">Мой путь</h2>
-          <div class="row">
-            <div class="boxes col-12 col-md-4 d-flex flex-column justify-content-start align-items-center gap-1 text-center">
-              <h2>1</h2>
-              <h3>Начало</h3>
+<!--py -падинг вертикальной оси-->
+        <section class="my_way container-fluid py-5">
+          <h2 class="descr d-flex justify-content-center align-items-center text-center">Мой путь</h2>
+          <div class="row circle_row justify-content-around align-items-center mt-5">
+            <div class="boxes col-12 col-md-3 d-flex flex-column justify-content-start align-items-center gap-2 text-center">
+             <h2 class="circle bi-1-circle-fill"></h2>
+              <h3 class="way_descr">Начало</h3>
               <p>Долго пытался найти себя и понять что мне интересно, пока случайно не начал изучать сферу програмирования и понял что это то что я искал все эти годы</p>
             </div>
-            <div class="boxes col-12 col-md-4 d-flex flex-column justify-content-start align-items-center gap-1 text-center">
-              <h2>2</h2>
-              <h3>Развитие</h3>
+            <div class="boxes col-12 col-md-3 d-flex flex-column justify-content-start align-items-center gap-2 text-center">
+              <h2 class="circle bi-2-circle-fill"></h2>
+              <h3 class="way_descr">Развитие</h3>
               <p>Начал очень много времени уделять учебе,код жто не просто работа - это пища для мозна и развитие,жто то место гле ты никогла не стоишь на месте!</p>
             </div>
-            <div class="boxes col-12 col-md-4 d-flex flex-column justify-content-start align-items-center gap-1 text-center">
-              <h2>3</h2>
-              <h3>Цели</h3>
+            <div class="boxes col-12 col-md-3 d-flex flex-column justify-content-start align-items-center gap-2 text-center">
+              <h2 class="circle bi-3-circle-fill"></h2>
+              <h3 class="way_descr">Цели</h3>
               <p>Хочу хорошо выучиться и продолжать развиваться в этом направлении,не стоять на месте, постоянно двигаться и учить новые языки и так де технологии</p>
             </div>
           </div>
-
+          <div class="container citation_block">
+            <div class="bi bi-chat-left-quote quote_icon"></div>
+            <p class="citation">Большинство хороших программистов делают свою работу не потому, что ожидают оплаты или признания, а потому что получают удовольствие от программирования.
+              <br>
+              <span style="font-style: italic; font-weight: 600;">Linus Torvalds</span></p>
+          </div>
         </section>
 
+      <section class="text_me container-fluid">
+        <h2 class="descr d-flex justify-content-center align-items-center text-center">Свяжитесь со мной</h2>
+        <div class="row justify-content-center align-items-center mt-5">
+          <form class="contact-form col-12 col-md-8">
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+            <label for="name" class="form-label">Введите ваше имя и Фамилию</label>
+            <input type="text" class="form-control" id="name" placeholder="Василий Ротшильд">
+              </div>
+              <div class="col-12 col-md-6">
+            <div class="mb-3">
+              <label for="mail" class="form-label">Введите ваш Email</label>
+              <input type="email" class="form-control" id="mail" placeholder="name@example.com">
+            </div>
+              </div>
+              <div class="col-12">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
 
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer_descr">
+            <h2>M.K.DEV</h2>
+           <p>Желаю всем удачи и быстрого роста в вашей сфере!</p>
+          </div>
+          <div class="footer_descr">Сделано исключительно с любовью к коду</div>
+        </div>
+      </div>
+    </footer>
     <script src="./hobby.js"></script>
   </body>
 </html>
-
-<!-- 
-<body>
-├── <header>
-│   └── <nav>
-├── <main>
-│   ├── <section> Главный экран
-│   ├── <section> Почему я люблю код
-│   ├── <section> Что изучаю
-│   ├── <section> Проекты
-│   ├── <section> Мой путь
-│   ├── <section> Цитата
-│   └── <section> Контакты
-└── <footer> -->

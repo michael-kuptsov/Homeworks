@@ -111,7 +111,7 @@ h1 {
 
 .light {
     color: rgb(196, 60, 237);
-    text-shadow: 0px 0px 10px white;
+    text-shadow: 0 0 10px white;
     background-color: rgba(221, 96, 247, 0.445);
 }
 
@@ -172,6 +172,107 @@ h1 {
     background-color: #252d4797;
 }
 
-.form-control {
+.game_field .form-control {
     width: 30%;
+}
+
+.my_way {
+    background-color: #f6f7fb;
+}
+
+.boxes {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.circle {
+    position: relative;
+    font-size: 150px;
+    z-index: 1;
+    background-color: #fff;
+
+}
+
+.bi-1-circle-fill {
+    color: rgb(79 79 241);
+}
+
+.bi-2-circle-fill {
+    color: rgb(234 121 187);
+}
+
+.bi-3-circle-fill {
+    color: rgb(175 234 96);
+}
+
+.way_descr {
+    font-size: 1.5em;
+}
+
+.circle_row {
+    position: relative;
+}
+
+.circle_row:before {
+    position: absolute;
+    content: "";
+    top:  133px;
+    height: 4px;
+    width: 80%;
+    background-color: rgb(84 45 145 / 0.53);
+    z-index: 0;
+
+}
+
+.citation_block {
+    color: #ffffff;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    font-size: 1.5em;
+    background-color: #0d1531;
+    border-radius: 15px;
+    text-shadow: 0 0 1px lightgreen;
+
+}
+
+.quote_icon {
+        color: #4f4ff1;
+        font-size: 4rem;
+    margin-right: 15px;
+}
+
+.contact-form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    margin-bottom: 50px;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #0d1531;
+    color: white;
+    text-shadow: 0 0 1px white;
+}
+
+.footer_descr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px 0;
+
 }
