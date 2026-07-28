@@ -10,7 +10,7 @@ body {
     box-sizing: border-box;
 }
 header {
-    background-color: #0d1531;;
+    background-color: #0d1531;
     color: #fff;
     padding: 10px 0;
     width: 100%;
@@ -26,6 +26,7 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
+    padding-right: 10px;
 
     
 }
@@ -59,6 +60,8 @@ header {
     padding: 5px 0;
 }
 
+
+
 h1 {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -69,6 +72,9 @@ h1 {
     width: 80%;
     height: auto;
     border-radius: 10px;
+}
+.why_programming {
+    padding-bottom: 30px;
 }
 
 .why_programming .feature-card{
@@ -130,11 +136,42 @@ h1 {
     margin-top: 20px;
 }
 
+.what_i_learn {
+    color: #fff;
+    background-color: #0d1531;
+    padding-bottom: 50px;
+}
+
 .what_i_learn .card_trip {
-    background-color: white;
+    color: #fff;
+    background-color: #21357b7c;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 15px rgba(237, 232, 232, 0.12);
 
-    
+}
 
+
+.card_trip img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 2em;
+    height: 2em;
+}
+
+.mini_game {
+    color: azure;
+    background-image: url(/hobby_project/img/17510078267895.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mini_game .game_title {
+    border: 2px solid #252d47;
+    text-align: center;
+    border-radius: 9999px;
+    background-color: #252d4797;
+}
+
+.form-control {
+    width: 30%;
 }
