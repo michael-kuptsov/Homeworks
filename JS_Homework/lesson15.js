@@ -30,3 +30,4 @@ console.log({} === true); // false тут уже проще так как мы �
 
 console.log({} == 0); //false как и раньше то что я понимаю {} ->string -> nan != 0 => false
 console.log({} == NaN); // false но тут интересно так как по итогу выходит NaN и там и там но оказываеться что NaN не равен ничему даже самому себе,вот такой вот парадокс JS
+console.log(Number(null));
